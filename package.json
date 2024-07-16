@@ -1,0 +1,31 @@
+{
+  "name": "apa-server",
+  "version": "1.0.0",
+  "description": "Camadas\r • Model: representa das tabelas do banco;\r • Routes: cria as rotas de navegação;\r • Controllers: Controla as regras de negócio\r com as rotas;\r • Service: Cria as regras de negócio da\r aplicação, como selecionar todos os usuários.c",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielBasitt/apa-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielBasitt/apa-server/issues"
+  },
+  "homepage": "https://github.com/GabrielBasitt/apa-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-promise-router": "^4.1.1",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {}
+}
